@@ -1,4 +1,4 @@
-# Changelog: Seo Headline Widget
+# Changelog: Accordion Widget
 
 ## 1.0.1
 

@@ -1,6 +1,9 @@
 scrivito_accordion
 =====================
 
+[![Gem Version](https://badge.fury.io/rb/scrivito_accordion.svg)](http://badge.fury.io/rb/scrivito_accordion)
+[![Code Climate](https://codeclimate.com/github/infopark/scrivito_accordion/badges/gpa.svg)](https://codeclimate.com/github/infopark/scrivito_accordion)
+
 A Widget for Scrivito for an accordion. It is using Bootstrap 3.
 
 If they use a different framework, then they should overwrite the views and the javascript.
