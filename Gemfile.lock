@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    scrivito_accordion (1.0.0)
+    scrivito_accordion (1.0.1)
       bundler
       scrivito_sdk
 
@@ -90,7 +90,7 @@ GEM
       rails (~> 4.1.1)
       rake (>= 0.9.2.2)
       rest-client (~> 1.6.7)
-    sprockets (2.12.1)
+    sprockets (2.12.2)
       hike (~> 1.2)
       multi_json (~> 1.0)
       rack (~> 1.0)
