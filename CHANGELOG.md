@@ -4,6 +4,9 @@
 
 * Add Hook valid_widget_classes_for
 * Fix: Placeholder for Main Content
+* Fix: Css classes for Bootstrap 3
+* Feature: Valid widget class hook added
+* Feature: Set first panel visible
 
 ## 1.0.0
 
