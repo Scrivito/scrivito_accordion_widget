@@ -25,9 +25,9 @@ Add this line to your application javascript manifest:
 After that, execute:
 
     $ bundle
-    $ rake cms:migrate:install
-    $ rake cms:migrate
-    $ rake cms:migrate:publish
+    $ rake scrivito:migrate:install
+    $ rake scrivito:migrate
+    $ rake scrivito:migrate:publish
 
 ## Changelog
 See [Changelog](https://github.com/infopark/scrivito_accordion/blob/master/CHANGELOG.md) for more
