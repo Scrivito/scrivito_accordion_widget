@@ -1,7 +1,7 @@
 # scrivito_accordion_widget
 
-[![Gem Version](https://badge.fury.io/rb/scrivito_accordion.svg)](http://badge.fury.io/rb/scrivito_accordion)
-[![Code Climate](https://codeclimate.com/github/infopark/scrivito_accordion/badges/gpa.svg)](https://codeclimate.com/github/infopark/scrivito_accordion)
+[![Gem Version](https://badge.fury.io/rb/scrivito_accordion_widget.svg)](http://badge.fury.io/rb/scrivito_accordion_widget)
+[![Code Climate](https://codeclimate.com/github/Scrivito/scrivito_accordion_widget/badges/gpa.svg)](https://codeclimate.com/github/Scrivito/scrivito_accordion_widget)
 
 ## Installation
 
