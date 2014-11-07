@@ -1,13 +1,13 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "scrivito_accordion/version"
+require "scrivito_accordion_widget/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |gem|
   gem.platform    = Gem::Platform::RUBY
-  gem.name        = 'scrivito_accordion'
-  gem.version     = ScrivitoAccordion::VERSION
+  gem.name        = 'scrivito_accordion_widget'
+  gem.version     = ScrivitoAccordionWidget::VERSION
   gem.summary     = 'Scrivito Accordion Widget.'
   gem.description = 'Scrivito Accordion Widget.'
 
@@ -21,7 +21,7 @@ Gem::Specification.new do |gem|
   gem.executables = []
   gem.test_files  = Dir['spec/**/*']
   gem.files       = Dir[
-    '{app,lib,cms}/**/*',
+    '{app,lib,scrivito}/**/*',
     'LICENSE',
     'Rakefile',
     'README.md',

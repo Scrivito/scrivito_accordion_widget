@@ -1,5 +1,9 @@
 # Changelog: Accordion Widget
 
+## 1.0.2
+
+* Rename to new naming convention
+
 ## 1.0.1
 
 * Add Hook valid_widget_classes_for
