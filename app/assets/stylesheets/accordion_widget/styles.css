@@ -1,0 +1,7 @@
+[data-scrivito-display-mode="editing"] *[data-scrivito-widget-obj-class] .panel-group *[data-scrivito-field-type="widget"] {
+  margin-top: 0;
+}
+
+.scrivito_editing_active .panel-group {
+  padding-top: 30px;
+}

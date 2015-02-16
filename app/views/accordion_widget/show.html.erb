@@ -1,9 +1,3 @@
-<div class='panel-group' id='<%= "accordion-#{widget.id}" %>'>
-  <% if scrivito_in_editable_view? %>
-    <%= scrivito_tag(:div, widget, :panels) %>
-  <% else %>
-    <% widget.panels.each do |panel| %>
-      <%= scrivito_value(panel) %>
-    <% end %>
-  <% end %>
+<div class='panel-group' id='<%= "accordion-#{widget.id}" %>'  role="tablist" aria-multiselectable="true">
+  <%= scrivito_tag(:div, widget, :panels) %>
 </div>

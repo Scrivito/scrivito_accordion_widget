@@ -1,7 +1,0 @@
-body[data-scrivito-display-mode='editing'] .panel-collapse.collapse {
-  min-height: 80px;
-}
-
-body[data-scrivito-display-mode='editing'] .accordion {
-  overflow: hidden;
-}

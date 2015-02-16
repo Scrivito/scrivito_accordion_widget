@@ -15,13 +15,9 @@ Add this line to your application's `Gemfile`:
 
     gem 'scrivito_accordion_widget'
 
-You should add this line to your editing Stylesheet manifest for better usage in edit mode:
+Than add to your stylesheet manifest:
 
-    *= require accordion_widget/editing
-
-Add this line to your application javascript manifest:
-
-    /= require accordion_widget/application
+    *= require accordion_widget/styles
 
 After that, execute:
 
