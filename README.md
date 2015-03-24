@@ -17,7 +17,7 @@ Add this line to your application's `Gemfile`:
 
 Than add to your stylesheet manifest:
 
-    *= require accordion_widget/styles
+    *= require scrivito_accordion_widget
 
 After that, execute:
 
