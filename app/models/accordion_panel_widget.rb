@@ -1,4 +1,6 @@
 class AccordionPanelWidget < Widget
+  attribute :headline, :string
+  attribute :content, :widgetlist
 
   def active_class
     "in" if self.container.panels.first == self

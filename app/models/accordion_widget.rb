@@ -1,4 +1,5 @@
 class AccordionWidget < Widget
+  attribute :panels, :widgetlist
 
   def description_for_editor
     "Accordion"
