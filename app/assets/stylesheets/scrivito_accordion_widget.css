@@ -1,5 +1,9 @@
-*[data-scrivito-display-mode="editing"] *[data-scrivito-widget-obj-class] .panel-group *[data-scrivito-field-type="widget"] {
-  margin-top: 0;
+.scrivito_editing_active .panel-group .panel-body.scrivito_empty_widget_field {
+  margin: 10px !important;
+}
+
+.scrivito_editing_active .panel-group .panel-body {
+  margin: 0px !important; 
 }
 
 .scrivito_editing_active .panel-group {

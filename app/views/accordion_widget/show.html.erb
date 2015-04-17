@@ -1,3 +1,12 @@
 <div class='panel-group' id='<%= "accordion-#{widget.id}" %>'  role="tablist" aria-multiselectable="true">
-  <%= scrivito_tag(:div, widget, :panels) %>
+
+  <% widget.panels.each do |panel| %>
+    <%= render 'accordion_panel_widget/show', widget: panel %>
+  <% end %>
+  
 </div>
+
+
+
+
+<%#= scrivito_tag(:div, widget, :panels, class: 'panel-group', id: "accordion-#{widget.id}", role: "tablist") %>
