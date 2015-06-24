@@ -1,13 +1,10 @@
 # scrivito_accordion_widget
 
 [![Gem Version](https://badge.fury.io/rb/scrivito_accordion_widget.svg)](http://badge.fury.io/rb/scrivito_accordion_widget)
-[![Code Climate](https://codeclimate.com/github/Scrivito/scrivito_accordion_widget/badges/gpa.svg)](https://codeclimate.com/github/Scrivito/scrivito_accordion_widget)
 
 ## Installation
 
-A Widget for Scrivito for an accordion. It is using Bootstrap 3.
-
-If they use a different framework, then they should overwrite the views and the javascript.
+A Widget for Scrivito for an accordion.
 
 ## Installation
 
@@ -19,12 +16,9 @@ Than add to your stylesheet manifest:
 
     *= require scrivito_accordion_widget
 
-After that, execute:
+Than add to your Javascript manifest:
 
-    $ bundle
-    $ rake scrivito:migrate:install
-    $ rake scrivito:migrate
-    $ rake scrivito:migrate:publish
+    *//= require scrivito_accordion_widget
 
 ## Changelog
 See [Changelog](https://github.com/Scrivito/scrivito_accordion_widget/blob/master/CHANGELOG.md) for more
