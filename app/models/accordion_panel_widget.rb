@@ -1,13 +1,14 @@
 class AccordionPanelWidget < Widget
-  attribute :headline, :string
+  attribute :title, :string, default: 'New Panel'
   attribute :content, :widgetlist
 
-  def active_class
-    "in" if self.container.panels.first == self
+  attribute :background_color, :string
+
+  def self.valid_container_classes
+    [AccordionWidget]
   end
 
-  def description_for_editor
-    "Accordion Panel"
+  def self.description_for_editor
+    'Panel'
   end
-
 end
