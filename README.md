@@ -4,7 +4,7 @@
 
 ## Installation
 
-A Widget for Scrivito for an accordion.
+A Widget for Scrivito to add an accordion.
 
 ## Installation
 
@@ -18,7 +18,7 @@ Than add to your stylesheet manifest:
 
 Than add to your Javascript manifest:
 
-    *//= require scrivito_accordion_widget
+    //= require scrivito_accordion_widget
 
 ## Changelog
 See [Changelog](https://github.com/Scrivito/scrivito_accordion_widget/blob/master/CHANGELOG.md) for more
