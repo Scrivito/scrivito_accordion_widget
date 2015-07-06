@@ -9,9 +9,10 @@
           var accordion_title = $(accordion_title);
           accordion_title.click(function() {
             accordion_group.find('.scrivito-accordion-title').removeClass('scrivito-accordion-active');
+            accordion_group.find('.scrivito-accordion-content').slideUp(300);
+
             accordion_title.addClass('scrivito-accordion-active');
-            accordion_group.find('.scrivito-accordion-content').removeClass('scrivito-accordion-active');
-            accordion_title.next().addClass('scrivito-accordion-active');
+            accordion_title.next().slideDown(300);
           });
         });
       });
