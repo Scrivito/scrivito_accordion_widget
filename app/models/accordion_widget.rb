@@ -1,8 +1,12 @@
 class AccordionWidget < Widget
-  attribute :panels, :widgetlist, default: [
-    AccordionPanelWidget.new(title: 'First Panel'),
-    AccordionPanelWidget.new(title: 'Second Panel')
-  ]
+  attribute :panels, :widgetlist
+
+  default_for :panels do |attributes|
+    [
+      AccordionPanelWidget.new(title: 'First Panel'),
+      AccordionPanelWidget.new(title: 'Second Panel')
+    ]
+  end
 
   def valid_widget_classes_for(field_name)
     [AccordionPanelWidget]
