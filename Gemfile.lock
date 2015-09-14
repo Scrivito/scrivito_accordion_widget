@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    scrivito_accordion_widget (1.0.13)
+    scrivito_accordion_widget (1.0.14)
       bundler
       scrivito
 
@@ -76,7 +76,7 @@ GEM
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     memoist (0.12.0)
-    mime-types (2.6.1)
+    mime-types (2.6.2)
     mini_portile (0.6.2)
     minitest (5.8.0)
     multi_json (1.11.2)
