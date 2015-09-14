@@ -1,10 +1,10 @@
 <div class="scrivito-accordion-group">
   <% widget.panels.each_with_index do |panel, i| %>
     <div class="scrivito-accordion-panel">
-      <div class="scrivito-accordion-title <%= 'scrivito-accordion-active' if i == 0 %>">
+      <div class="scrivito-accordion-title <%= 'scrivito-accordion-active' if i == 0 %>  <%= panel.background_color %>">
         <%= scrivito_value panel.title %>
       </div>
-      <%= scrivito_tag :div, panel, :content, class: "scrivito-accordion-content #{'scrivito-accordion-active' if i == 0}" %>
+      <%= scrivito_tag :div, panel, :content, class: "scrivito-accordion-content #{panel.background_color} #{'scrivito-accordion-active' if i == 0}" %>
     </div>
   <% end %>
 </div>

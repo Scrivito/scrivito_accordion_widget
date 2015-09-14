@@ -7,7 +7,7 @@
   }
   .scrivito-accordion-title {
     background-color: whitesmoke;
-    padding: 15px;
+    padding: 10px 15px;
     font-size: 16px;
     cursor: pointer;
     &:hover {
@@ -16,7 +16,7 @@
   }
   .scrivito-accordion-content {
     display: none;
-    padding: 10px;
+    padding: 10px 15px;
   }
   .scrivito-accordion-content.scrivito-accordion-active {
     display: block;

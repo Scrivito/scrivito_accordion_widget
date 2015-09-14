@@ -1,3 +1,3 @@
 module ScrivitoAccordionWidget
-  VERSION = "1.0.12"
+  VERSION = "1.0.13"
 end
