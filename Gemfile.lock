@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    scrivito_accordion_widget (1.0.14)
+    scrivito_accordion_widget (1.0.15)
       bundler
       scrivito
 

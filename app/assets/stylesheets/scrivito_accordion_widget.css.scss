@@ -17,6 +17,7 @@
   .scrivito-accordion-content {
     display: none;
     padding: 10px 15px;
+    position: static;
   }
   .scrivito-accordion-content.scrivito-accordion-active {
     display: block;
