@@ -1,10 +1,19 @@
-<div class="scrivito-accordion-group">
+<div class="panel-group" id="accordion-<%= widget.id %>" role="tablist" aria-multiselectable="true">
   <% widget.panels.each_with_index do |panel, i| %>
-    <div class="scrivito-accordion-panel">
-      <div class="scrivito-accordion-title <%= 'scrivito-accordion-active' if i == 0 %>  <%= panel.background_color %>">
-        <%= scrivito_value panel.title %>
+    <div class="panel panel-default">
+      <div class="panel-heading <%= panel.background_color %>" role="tab" id="headingOne">
+        <h4 class="panel-title">
+          <a role="button" data-toggle="collapse" data-parent="#accordion-<%= widget.id %>" href="#collapse<%= i %>" aria-expanded="<%= i == 0 ? 'true' : 'false'%>" aria-controls="collapse<%= i %>">
+            <%= scrivito_value panel.title %>
+          </a>
+        </h4>
       </div>
-      <%= scrivito_tag :div, panel, :content, class: "scrivito-accordion-content #{panel.background_color} #{'scrivito-accordion-active' if i == 0}" %>
+
+      <div id="collapse<%= i %>" class="panel-collapse collapse <%= i == 0 ? 'in' : '' %>" role="tabpanel">
+        <div class="panel-body <%= panel.background_color %>">
+          <%= scrivito_tag :div, panel, :content %>
+        </div>
+      </div>
     </div>
   <% end %>
 </div>
