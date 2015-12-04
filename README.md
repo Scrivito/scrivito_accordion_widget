@@ -1,21 +1,25 @@
-# scrivito_accordion_widget
+# ScrivitoAccordionWidget
 
-[![Gem Version](https://badge.fury.io/rb/scrivito_accordion_widget.svg)](http://badge.fury.io/rb/scrivito_accordion_widget)
+A Scrivito widget to add an accordion.
+
+## Prerequists
+
+This widget requires bootstrap.
 
 ## Installation
 
-A Widget for Scrivito to add an accordion.
-
-## Installation
-
-Add this line to your application's `Gemfile`:
+Add this line to your application's Gemfile:
 
     gem 'scrivito_accordion_widget'
 
-## Contributing
+## Customization
 
-1. Fork it ( https://github.com/Scrivito/scrivito_accordion_widget/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+This widget includes an attribute for a background color of a panel. The value of this attribute is used as CSS class. If ypu want to use the feature add a CSS rule for your selectable colors:
+
+```css
+.bg-red {
+  background-color: red;
+}
+```
+
+You can also use [Scrivito Advanced Editors](https://github.com/Scrivito/scrivito_advanced_editors #color_picker) color picker to have a better visualation of selectable color classes.
