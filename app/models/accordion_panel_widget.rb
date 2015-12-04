@@ -11,4 +11,11 @@ class AccordionPanelWidget < Widget
   def self.description_for_editor
     'Panel'
   end
+
+  def scrivito_selectable_color_classes
+    helper = ApplicationController.helpers
+    if helper.respond_to? 'scrivito_selectable_color_classes'
+      helper.scrivito_selectable_color_classes('accordion_widget', 'background_color')
+    end
+  end
 end
