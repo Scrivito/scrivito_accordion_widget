@@ -21,7 +21,7 @@ Gem::Specification.new do |gem|
   gem.executables = []
   gem.test_files  = Dir['spec/**/*']
   gem.files       = Dir[
-    '{app,lib,scrivito}/**/*',
+    '{app,lib}/**/*',
     'LICENSE',
     'Rakefile',
     'README.md',
