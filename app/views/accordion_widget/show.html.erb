@@ -3,13 +3,13 @@
     <div class="panel panel-default">
       <div class="panel-heading <%= panel.background_color %>" role="tab" id="headingOne">
         <h4 class="panel-title">
-          <a role="button" data-toggle="collapse" data-parent="#accordion-<%= widget.id %>" href="#collapse<%= i %>" aria-expanded="<%= i == 0 ? 'true' : 'false'%>" aria-controls="collapse<%= i %>">
+          <a role="button" data-toggle="collapse" data-parent="#accordion-<%= widget.id %>" href="#collapse-<%= widget.id %>-<%= i %>" aria-expanded="<%= i == 0 ? 'true' : 'false'%>" aria-controls="collapse<%= i %>">
             <%= scrivito_value panel.title %>
           </a>
         </h4>
       </div>
 
-      <div id="collapse<%= i %>" class="panel-collapse collapse <%= i == 0 ? 'in' : '' %>" role="tabpanel">
+      <div id="collapse-<%= widget.id %>-<%= i %>" class="panel-collapse collapse <%= i == 0 ? 'in' : '' %>" role="tabpanel">
         <div class="panel-body <%= panel.background_color %>">
           <%= scrivito_tag :div, panel, :content %>
         </div>
