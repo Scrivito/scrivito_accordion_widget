@@ -12,6 +12,21 @@ Add this line to your application's Gemfile:
 
     gem 'scrivito_accordion_widget'
 
+## Localization
+
+The following code shows the default localization for english. Copy it to your `en.yml` and change it if necessary:
+
+```yaml
+en:
+  scrivito_accordion_widget:
+    thumbnail:
+      title: Accordion
+      description: Displays collapsible content panels
+    details:
+      background_color: Background color
+      title: Title
+```
+
 ## Customization
 
 This widget includes an attribute for the background color of every panel. The value of this attribute is used as a CSS class. If you want to use this feature, add a CSS rule for your selectable colors:
