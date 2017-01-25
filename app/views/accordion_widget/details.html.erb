@@ -1,1 +1,5 @@
+<%= scrivito_details_for t('scrivito_content_box_widget.details.expanded', default: 'Expand first panel') do %>
+  <%= scrivito_tag :div, widget, :expanded %>
+<% end %>
+
 <%= scrivito_tag :div, widget, :panels, 'data-scrivito-modal-size' => 'large' %>

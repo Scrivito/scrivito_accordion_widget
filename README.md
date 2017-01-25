@@ -23,6 +23,7 @@ en:
       title: Accordion
       description: Displays collapsible content panels
     details:
+      expand: Expand first panel
       background_color: Background color
       title: Title
 ```

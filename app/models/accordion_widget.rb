@@ -1,5 +1,6 @@
 class AccordionWidget < Widget
   attribute :panels, :widgetlist
+  attribute :expanded, :enum, values: ['Yes','No']
 
   default_for :panels do |attributes|
     [
@@ -14,5 +15,9 @@ class AccordionWidget < Widget
 
   def self.description_for_editor
     'Accordion'
+  end
+
+  def expanded?
+    self.expanded == "Yes"
   end
 end
