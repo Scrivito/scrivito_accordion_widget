@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    scrivito_accordion_widget (1.2.0)
+    scrivito_accordion_widget (1.2.1)
       scrivito
 
 GEM
