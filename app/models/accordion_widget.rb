@@ -1,6 +1,6 @@
 class AccordionWidget < Widget
   attribute :panels, :widgetlist
-  attribute :expanded, :enum, values: ['Yes','No']
+  attribute :expanded, :enum, values: ['Yes','No'], default: 'Yes'
 
   default_for :panels do |attributes|
     [
@@ -18,6 +18,6 @@ class AccordionWidget < Widget
   end
 
   def expanded?
-    self.expanded == "Yes"
+    self.expanded != "No"
   end
 end
